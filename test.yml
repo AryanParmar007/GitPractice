@@ -13,7 +13,7 @@ steps:
   - uses: actions/checkout@v3
     with:
     node-version: 20
-  -run: npm_ci
+  -run: npm ci
   -run: npm test
   -run: npm run build
 
